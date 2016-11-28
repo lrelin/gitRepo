@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lrelin3
+  host: lrelin3
+  disk_quota: 1024M
+  services:
+  - lrelin3-cloudantNoSQLDB
